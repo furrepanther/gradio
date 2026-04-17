@@ -1,5 +1,11 @@
 # gradio_client
 
+## 2.4.2
+
+### Fixes
+
+- [#13280](https://github.com/gradio-app/gradio/pull/13280) [`bb9c130`](https://github.com/gradio-app/gradio/commit/bb9c130e1e8c60b8a717da7184b02ab459be3f03) - Fix snippet generator crash on datetime values in Dataframe inputs.  Thanks @ParamChordiya!
+
 ## 2.4.1
 
 ### Features

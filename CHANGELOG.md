@@ -1,5 +1,26 @@
 # gradio
 
+## 6.13.0
+
+### Features
+
+- [#13248](https://github.com/gradio-app/gradio/pull/13248) [`30264b5`](https://github.com/gradio-app/gradio/commit/30264b5f1e228b7b5a077cbd839c05f32e29297d) - docs: Add "Common Patterns" section to Textbox component docs.  Thanks @yuzegong746-cmd!
+- [#13266](https://github.com/gradio-app/gradio/pull/13266) [`6809249`](https://github.com/gradio-app/gradio/commit/6809249801772cc9db0042eac9559b1b363bbcb9) - Fix typo in `Request.state` serialization.  Thanks @abidlabs!
+- [#13252](https://github.com/gradio-app/gradio/pull/13252) [`e39f028`](https://github.com/gradio-app/gradio/commit/e39f0284582bbac93fd01b2a5eae4ecae219f252) - Add ImageSlider unit tests.  Thanks @pngwn!
+- [#13262](https://github.com/gradio-app/gradio/pull/13262) [`b6b0d02`](https://github.com/gradio-app/gradio/commit/b6b0d02bfab966e9b560402d3b7fb159d8692cea) - Fix batched queue events losing request context.  Thanks @abidlabs!
+- [#13267](https://github.com/gradio-app/gradio/pull/13267) [`5fd7698`](https://github.com/gradio-app/gradio/commit/5fd7698f16f6cdfefb7e010b03fce60583d50214) - Fix timing and TTL comparisons bugs.  Thanks @abidlabs!
+- [#13277](https://github.com/gradio-app/gradio/pull/13277) [`cab8be0`](https://github.com/gradio-app/gradio/commit/cab8be062deb958a718aae25175e07fb013dfd4f) - CLI/Agent API Docs.  Thanks @freddyaboulton!
+- [#13265](https://github.com/gradio-app/gradio/pull/13265) [`8b47ccb`](https://github.com/gradio-app/gradio/commit/8b47ccbf168d0ea721088a52fb9789c4339e7f2f) - Skills Reorg + sync to huggingface/skills.  Thanks @freddyaboulton!
+- [#13286](https://github.com/gradio-app/gradio/pull/13286) [`948fcb8`](https://github.com/gradio-app/gradio/commit/948fcb89508c1e059bd9b761f2384afcea9481af) - fix(reloading): copy `server` attr before swapping blocks.  Thanks @cbensimon!
+- [#13247](https://github.com/gradio-app/gradio/pull/13247) [`e6b1634`](https://github.com/gradio-app/gradio/commit/e6b1634f3d64851a82505e3b37ac1f4b90905b05) - Dropdown Unit Tests.  Thanks @freddyaboulton!
+
+### Fixes
+
+- [#13250](https://github.com/gradio-app/gradio/pull/13250) [`2e9eb51`](https://github.com/gradio-app/gradio/commit/2e9eb51d4da5e4a997ac2fc18e5814bacf6f818d) - Restore select-all checkbox in boolean column headers of `gr.Dataframe`.  Thanks @pngwn!
+- [#13259](https://github.com/gradio-app/gradio/pull/13259) [`b5e6491`](https://github.com/gradio-app/gradio/commit/b5e64918b721550bc3762169fda81c5270904eaa) - Dataframe: allow native context menu and text selection on static cells.  Thanks @pngwn!
+- [#13280](https://github.com/gradio-app/gradio/pull/13280) [`bb9c130`](https://github.com/gradio-app/gradio/commit/bb9c130e1e8c60b8a717da7184b02ab459be3f03) - Fix snippet generator crash on datetime values in Dataframe inputs.  Thanks @ParamChordiya!
+- [#13269](https://github.com/gradio-app/gradio/pull/13269) [`e9c963e`](https://github.com/gradio-app/gradio/commit/e9c963e1e8cf06849ddac15d004384331e3dc10e) - Unit tests for js/paramviewer, js/timer, js/markdown.  Thanks @freddyaboulton!
+
 ## 6.12.0
 
 ### Features
